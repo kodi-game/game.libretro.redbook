@@ -1,0 +1,1 @@
+redbook https://github.com/libretro/redbook/archive/43544bb988f37a8f3df5af5d2c6f89dd255b8235.tar.gz
