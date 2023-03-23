@@ -25,5 +25,6 @@
 		<description lang="en_GB">Libretro core for Red Book audio playback.</description>
 		<description lang="es_ES">Núcleo Libretro para la reproducción de audio Red Book.</description>
 		<description lang="fr_FR">Noyau Libretro pour la lecture audio Red Book.</description>
+		<description lang="zh_CN">用于 Red Book 音频播放的 Libretro 核心。</description>
 	</extension>
 </addon>
