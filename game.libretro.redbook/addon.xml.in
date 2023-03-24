@@ -18,7 +18,7 @@
 		<license>Apache 2.0</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.redbook</source>
-		<summary lang="en_GB">Red Book</summary>
+		<summary lang="en_GB">Redbook Audio Player</summary>
 		<summary lang="fr_FR">Red Book</summary>
 		<description lang="da_DK">Libretro-kerne til Red Book lydafspilning.</description>
 		<description lang="de_DE">Libretro-Core für die Wiedergabe von Red Book Audio.</description>
