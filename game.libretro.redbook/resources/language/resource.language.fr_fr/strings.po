@@ -18,9 +18,13 @@ msgstr ""
 "X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
-msgid "Red Book"
-msgstr "Red Book"
+msgid "Redbook Audio Player"
+msgstr ""
 
 msgctxt "Addon Description"
 msgid "Libretro core for Red Book audio playback."
 msgstr "Noyau Libretro pour la lecture audio Red Book."
+
+#~ msgctxt "Addon Summary"
+#~ msgid "Red Book"
+#~ msgstr "Red Book"
