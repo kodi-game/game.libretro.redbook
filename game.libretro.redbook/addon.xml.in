@@ -19,6 +19,7 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.redbook</source>
 		<summary lang="en_GB">Redbook Audio Player</summary>
+		<summary lang="es_ES">Reproductor de Audio Redbook</summary>
 		<description lang="da_DK">Libretro-kerne til Red Book lydafspilning.</description>
 		<description lang="de_DE">Libretro-Core für die Wiedergabe von Red Book Audio.</description>
 		<description lang="en_GB">Libretro core for Red Book audio playback.</description>
