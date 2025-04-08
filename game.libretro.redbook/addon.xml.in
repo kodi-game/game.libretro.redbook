@@ -21,12 +21,14 @@
 		<summary lang="da_DK">Redbook Lydafspiller</summary>
 		<summary lang="en_GB">Redbook Audio Player</summary>
 		<summary lang="es_ES">Reproductor de Audio Redbook</summary>
+		<summary lang="sv_SE">Redbook-ljudspelare</summary>
 		<summary lang="zh_CN">Redbook 音频播放器</summary>
 		<description lang="da_DK">Libretro-kerne til Red Book lydafspilning.</description>
 		<description lang="de_DE">Libretro-Core für die Wiedergabe von Red Book Audio.</description>
 		<description lang="en_GB">Libretro core for Red Book audio playback.</description>
 		<description lang="es_ES">Núcleo Libretro para la reproducción de audio Red Book.</description>
 		<description lang="fr_FR">Noyau Libretro pour la lecture audio Red Book.</description>
+		<description lang="sv_SE">Libretro-kärna för uppspelning av ljud från Red Book.</description>
 		<description lang="zh_CN">用于 Red Book 音频播放的 Libretro 核心。</description>
 	</extension>
 </addon>
