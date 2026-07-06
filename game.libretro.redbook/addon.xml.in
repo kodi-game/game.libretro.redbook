@@ -18,6 +18,7 @@
 		<license>Apache 2.0</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.redbook</source>
+		<summary lang="cs_CZ">Přehrávač zvuku Red Book</summary>
 		<summary lang="da_DK">Redbook Lydafspiller</summary>
 		<summary lang="en_GB">Redbook Audio Player</summary>
 		<summary lang="es_ES">Reproductor de Audio Redbook</summary>
@@ -26,6 +27,7 @@
 		<summary lang="ru_RU">Redbook Audio Player</summary>
 		<summary lang="sv_SE">Redbook-ljudspelare</summary>
 		<summary lang="zh_CN">Redbook 音频播放器</summary>
+		<description lang="cs_CZ">Jádro Libretro pro přehrávání zvuku Red Book.</description>
 		<description lang="da_DK">Libretro-kerne til Red Book lydafspilning.</description>
 		<description lang="de_DE">Libretro-Core für die Wiedergabe von Red Book Audio.</description>
 		<description lang="en_GB">Libretro core for Red Book audio playback.</description>
