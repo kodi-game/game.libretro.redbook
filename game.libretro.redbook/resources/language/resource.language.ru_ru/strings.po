@@ -22,5 +22,5 @@ msgid "Redbook Audio Player"
 msgstr "Redbook Audio Player"
 
 msgctxt "Addon Description"
-msgid "Libretro core for Red Book audio playback."
+msgid "Provides playback for Redbook-formatted audio, such as commercial audio CDs."
 msgstr "Ядро Libretro для воспроизведения аудиофайлов Red Book."
