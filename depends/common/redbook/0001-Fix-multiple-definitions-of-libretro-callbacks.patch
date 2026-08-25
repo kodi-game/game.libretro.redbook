@@ -1,0 +1,45 @@
+From 1f52964a37c88c00e7ab01c24f2c3656e8fbe8fb Mon Sep 17 00:00:00 2001
+From: Garrett Brown <themagnificentmrb@gmail.com>
+Date: Mon, 24 Aug 2026 20:48:32 -0700
+Subject: [PATCH] Fix multiple definitions of libretro callbacks
+
+---
+ libretro.c | 4 ++++
+ redbook.h  | 6 +++---
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+
+diff --git a/libretro.c b/libretro.c
+index 25f87f0..9e3fcae 100644
+--- a/libretro.c
++++ b/libretro.c
+@@ -43,6 +43,10 @@ You may obtain a copy of the License at
+ 
+ #define ARRAY_SIZE(a) (sizeof(a) / sizeof((a)[0]))
+ 
++retro_audio_sample_batch_t audio_batch_cb = NULL;
++retro_audio_sample_t audio_cb = NULL;
++retro_video_refresh_t video_cb = NULL;
++
+ #define DESC_OFFSET(desc, port, index, id) ( \
+    port * ((desc)->index_max - (desc)->index_min + 1) * ((desc)->id_max - (desc)->id_min + 1) + \
+    index * ((desc)->id_max - (desc)->id_min + 1) + \
+diff --git a/redbook.h b/redbook.h
+index d0ec256..0847e9a 100644
+--- a/redbook.h
++++ b/redbook.h
+@@ -17,9 +17,9 @@ You may obtain a copy of the License at
+ #ifndef REDBOOK_H__
+ #define REDBOOK_H__
+ 
+-retro_audio_sample_batch_t audio_batch_cb;
+-retro_audio_sample_t audio_cb;
+-retro_video_refresh_t video_cb;
++extern retro_audio_sample_batch_t audio_batch_cb;
++extern retro_audio_sample_t audio_cb;
++extern retro_video_refresh_t video_cb;
+ 
+ void redbook_init(int width, int height, uint32_t *buf);
+ 
+-- 
+2.43.0
+
