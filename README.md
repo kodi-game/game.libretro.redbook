@@ -2,7 +2,7 @@
 
 ### Description
 
-Libretro core for Red Book audio playback.
+Provides playback for Redbook-formatted audio, such as commercial audio CDs.
 
 ### License
 
@@ -10,12 +10,12 @@ Apache 2.0
 
 ### Icon
 
-Help make me an icon!
+![Redbook Audio Player icon](game.libretro.redbook/resources/icon.png)
 
 ### Fanart
 
-Help make me fanart!
+![Redbook Audio Player fanart](game.libretro.redbook/resources/fanart.jpg)
 
 ### Screenshots
 
-Help make me screenshots!
+![Redbook Audio Player screenshot](game.libretro.redbook/resources/screenshot-01.png)

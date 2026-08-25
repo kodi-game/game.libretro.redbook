@@ -19,6 +19,11 @@
 		<license>Apache 2.0</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.redbook</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.png</screenshot>
+		</assets>
 		<summary lang="cs_CZ">Přehrávač zvuku Red Book</summary>
 		<summary lang="da_DK">Redbook Lydafspiller</summary>
 		<summary lang="en_GB">Redbook Audio Player</summary>
